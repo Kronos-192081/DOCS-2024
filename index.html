@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Page</title>
+    <title> DOCS - 2024 </title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <div class="header-content">
-            <h1>CS60203: Design Optimization of Computing Systems</h1>
-            <h1>Autumn 2024, L-T-P: 3-0-0</h1>
-        </div>
-    </header>
-    
+    <nav class="navbar">
+        <ul>
+            <li>CS60203</li>
+            <li><a href="#notice-announcements">Notices and Announcements</a></li>
+            <li><a href="#course-information">Course Information</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li style="margin-left: 41vw;"> Autumn 2024, L-T-P: 3-0-0</li>
+        </ul>
+    </nav>
+
     <main class="container" style="max-width: 1300px;">
-        <section id="overview" class="mb-5">
+        <h1 style="font-weight: bold; text-align: center;"> Design Optimization of Computing Systems </h1>
+        <section id="course-overview" class="mb-5">
             <p>This course is designed to provide students with an in-depth understanding and practical skills
-            necessary to enhance the performance and efficiency of diverse computing systems. Through a
-            holistic approach, students will delve into various aspects of optimization techniques across
-            multiple domains. The course begins by exploring strategies for optimizing multi-core and
-            CPU-intensive programs, emphasizing the importance of efficient garbage collection
-            mechanisms. Students will then advance to mastering techniques for optimizing multi-threaded
-            applications and IO-intensive programs, with a focus on leveraging Just-In-Time (JIT)
-            compilation for improved performance.</p>
+                necessary to enhance the performance and efficiency of diverse computing systems. Through a
+                holistic approach, students will delve into various aspects of optimization techniques across
+                multiple domains. The course begins by exploring strategies for optimizing multi-core and
+                CPU-intensive programs, emphasizing the importance of efficient garbage collection
+                mechanisms. Students will then advance to mastering techniques for optimizing multi-threaded
+                applications and IO-intensive programs, with a focus on leveraging Just-In-Time (JIT)
+                compilation for improved performance.</p>
             <p>Furthermore, the course delves into database optimization methodologies, covering topics such
-            as hardware support and caching mechanisms to enhance database performance. Students will
-            also explore advanced concepts in network programming optimization, including the utilization
-            of Content Delivery Networks (CDNs) to improve network efficiency. Lastly, the course provides
-            insights into advanced machine learning (ML) optimization techniques, such as ML Operations
-            (MLOps) frameworks like LORA and optimizations for Non-Uniform Memory Access (NUMA),
-            enabling students to optimize ML workflows for efficient computation. By the end of the course,
-            students will possess the expertise to analyze performance bottlenecks, devise optimization
-            strategies, and implement solutions to enhance the efficiency and scalability of complex
-            computing systems.</p>
+                as hardware support and caching mechanisms to enhance database performance. Students will
+                also explore advanced concepts in network programming optimization, including the utilization
+                of Content Delivery Networks (CDNs) to improve network efficiency. Lastly, the course provides
+                insights into advanced machine learning (ML) optimization techniques, such as ML Operations
+                (MLOps) frameworks like LORA and optimizations for Non-Uniform Memory Access (NUMA),
+                enabling students to optimize ML workflows for efficient computation. By the end of the course,
+                students will possess the expertise to analyze performance bottlenecks, devise optimization
+                strategies, and implement solutions to enhance the efficiency and scalability of complex
+                computing systems.</p>
+            <p><b> Note: </b> You can get an idea of what you might learn in this course by reviewing the following
+                <a href="https://forms.gle/rMqyxfbuWMmqzz6f9" target="_blank">problems</a>. Please submit the Google
+                form after completing the problems to help us register you for the course.
+            </p>
         </section>
 
         <section id="instructor" class="mb-5">
@@ -44,7 +55,8 @@
             <div class="d-flex mb-3">
                 <div class="instructor">
                     <div class="image-wrapper">
-                    <img src="https://cse.iitkgp.ac.in/~mainack/images/Mainack-Mondal.jpg" alt="Instructor Photo" class="mr-3">
+                        <img src="https://cse.iitkgp.ac.in/~mainack/images/Mainack-Mondal.jpg" alt="Instructor Photo"
+                            class="mr-3">
                     </div>
                     <div>
                         <p><strong>Mainack Mondal</strong></p>
@@ -52,7 +64,8 @@
                     </div>
                 </div>
                 <div class="instructor">
-                    <img src="https://cse.iitkgp.ac.in/~sandipc/assets/images/about/sandip2024.jpeg" alt="Instructor Photo" class="mr-3">
+                    <img src="https://cse.iitkgp.ac.in/~sandipc/assets/images/about/sandip2024.jpeg"
+                        alt="Instructor Photo" class="mr-3">
                     <div>
                         <p><strong> Sandip Chakraborty</strong></p>
                         <p>sandipc [AT] cse [DOT] iitkgp [DOT] ac [DOT] in</p>
@@ -60,7 +73,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section id="assistants" class="mb-5">
             <h2>Teaching Assistants</h2>
             <div class="d-flex mb-3">
@@ -84,9 +97,18 @@
         <section id="notice-announcements">
             <h2> Notices and Announcements </h2>
             <br>
+            <div class="notice">
+                <h5> <b>[July 14, 2024]</b></h5>
+                <p> Students are requested to apply for this course through the <b>ERP</b> portal. Applications will be
+                    reviewed and finalized a few days before classes begin. Please refrain from sending individual
+                    emails regarding your application, as we may not be able to respond to each one. In the meantime, do
+                    review and submit the <a href="https://forms.gle/rMqyxfbuWMmqzz6f9" target="_blank">problems</a>.
+                    These problems will give you an idea regarding the course content.
+                </p>
+            </div>
         </section>
-        
-        <section id="course information">
+
+        <section id="course-information">
             <h2>Course Information</h2>
             <br>
             <div class="side-by-side">
@@ -102,13 +124,16 @@
                     <h5 style="font-weight: bold;">Pre-requisites:</h5>
                 </div>
                 <div class="text">
-                    This is an advanced level course, mostly dealing with optimizations associated with real-world deployed systems. Thus, we will assume familiarity with Computer Systems. We are providing an exclusive list of pre-requisites(this list is not complete, but should give you an idea about what basic background knowledge you need for this course)
+                    This is an advanced level course, mostly dealing with optimizations associated with real-world
+                    deployed systems. Thus, we will assume familiarity with Computer Systems. We are providing an
+                    exclusive list of pre-requisites(this list is not complete, but should give you an idea about what
+                    basic background knowledge you need for this course)
                     <ul>
                         <li>CS31202: Operating Systems</li>
                         <li>CS31204: Computer Networks</li>
                         <li>CS30202: Database Management Systems</li>
                     </ul>
-                
+
                 </div>
             </div>
             <div class="side-by-side">
@@ -118,11 +143,13 @@
                 <div class="text">
                     Venue: CSE-120 <br>
                     Scheduled lecture timings are (Slot V3):<br>
-                        <ul>
-                            <li> Thursday 03:00 pm - 04:55 pm </li>
-                            <li> Friday 03:00 pm - 03:55 pm </li>
-                        </ul>
-                        In this semester we will conduct the course offline with a mix of live lectures, and pre-recorded course videos (if necessary). Please keep an eye on the <a href="#coverage">coverage</a> page for the latest updates.
+                    <ul>
+                        <li> Thursday 03:00 pm - 04:55 pm </li>
+                        <li> Friday 03:00 pm - 03:55 pm </li>
+                    </ul>
+                    In this semester we will conduct the course offline with a mix of live lectures, and pre-recorded
+                    course videos (if necessary). Please keep an eye on the <a href="#schedule">schedule</a> page for
+                    the latest updates.
                 </div>
             </div>
 
@@ -131,12 +158,20 @@
                     <h5 style="font-weight: bold;"> References: </h5>
                 </div>
                 <div class="text">
-                    There are few specific textbooks, that we will be following. However, most of our course will be based on research/white papers associated with real-life deployed systems.  The list of textbooks is as follows:
+                    There are few specific textbooks, that we will be following. However, most of our course will be
+                    based on research/white papers associated with real-life deployed systems. The list of textbooks is
+                    as follows:
                     <ul>
-                        <li> <a href="https://www.brendangregg.com/blog/2020-07-15/systems-performance-2nd-edition.html">Systems Performance: Enterprise and the Cloud, 2nd Edition</a> - Brendan Gregg, 2020 </li>
-                        <li> <a href="https://www.oreilly.com/library/view/advanced-python-programming/9781838551216/">Advanced Python Programming</a> - Dr. Gabriele Lanaro, Quan Nguyen, Sakis Kasampalis, 2019 </li>
-                        <li> <a href = "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/">Designing Data-Intensive Applications</a> - Martin Kleppman, 2017 </li>
-                        <li> <a href = "https://www.oreilly.com/library/view/the-art-of/9780123705914/">The Art of Multiprocessor Programming</a> - Maurice Herlihy, Nir Shavit, 2011</li>
+                        <li> <a
+                                href="https://www.brendangregg.com/blog/2020-07-15/systems-performance-2nd-edition.html">Systems
+                                Performance: Enterprise and the Cloud, 2nd Edition</a> - Brendan Gregg, 2020 </li>
+                        <li> <a href="https://www.oreilly.com/library/view/advanced-python-programming/9781838551216/">Advanced
+                                Python Programming</a> - Dr. Gabriele Lanaro, Quan Nguyen, Sakis Kasampalis, 2019 </li>
+                        <li> <a
+                                href="https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/">Designing
+                                Data-Intensive Applications</a> - Martin Kleppman, 2017 </li>
+                        <li> <a href="https://www.oreilly.com/library/view/the-art-of/9780123705914/">The Art of
+                                Multiprocessor Programming</a> - Maurice Herlihy, Nir Shavit, 2011</li>
                     </ul>
                 </div>
             </div>
@@ -146,7 +181,9 @@
                     <h5 style="font-weight: bold;"> Coursework: </h5>
                 </div>
                 <div class="text">
-                    The coursework for all students consists of 2 tests and a few assignments. We will use <a href="https://moodlecse.iitkgp.ac.in/moodle/login/index.php"> CSE Moodle </a> for submission of tests and assignments this course. The code for joining CSE moodle will be given in the class.
+                    The coursework for all students consists of 2 tests and a few assignments. We will use <a
+                        href="https://moodlecse.iitkgp.ac.in/moodle/login/index.php"> CSE Moodle </a> for submission of
+                    tests and assignments this course. The code for joining CSE moodle will be given in the class.
                 </div>
             </div>
 
@@ -155,21 +192,40 @@
                     <h5 style="font-weight: bold;"> Communication: </h5>
                 </div>
                 <div class="text">
-                    We will update the course  <a href="#coverage">coverage</a> regularly throughout the course. Also, keep an eye on the  <a href = "#notice-announcements"> notice and announcements </a> page. <br>
+                    We will update the course <a href="#schedule">schedule</a> regularly throughout the course. Also,
+                    keep an eye on the <a href="#notice-announcements"> notice and announcements </a> page. <br>
 
                     <b> Joining MS Teams </b>
                     <ul>
-                        <li> Note that you NEED TO join the Microsoft teams classroom titled "Design Optimization Of Computing Systems 2024 (CS60203)" for this course. We will also share the recordings (as well as recorded lectures) of the lectures via Microsoft Teams. Drop the instructors an email ASAP if you cannot access the Microsoft teams classroom. </li>
-                        <li> We would announce doubt clearing sessions to complement the lecture sessions as we go. Please keep an eye on the schedule and <a href = "https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app"> Microsoft Teams </a> channels. </li>
+                        <li> Note that you NEED TO join the Microsoft teams classroom titled "Design Optimization Of
+                            Computing Systems 2024 (CS60203)" for this course. We will also share the recordings (as
+                            well as recorded lectures) of the lectures via Microsoft Teams. Drop the instructors an
+                            email ASAP if you cannot access the Microsoft teams classroom. </li>
+                        <li> We would announce doubt clearing sessions to complement the lecture sessions as we go.
+                            Please keep an eye on the schedule and <a
+                                href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app">
+                                Microsoft Teams </a> channels. </li>
                     </ul>
 
                     <b> General discussion </b>
                     <ul>
-                        <li> We'll use <a href = "https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app"> Microsoft Teams </a> for general discussion and questions about course material. </li>
-                        <li> You should already have the account username and password to log into Microsoft teams. If you cannot access the  Microsoft teams classroom titled "Design Optimization Of Computing Systems 2024 (CS60203)" please let the instructors know as soon as possible. </li>
-                        <li> If you need to reach out to the instructors (e.g., pertaining to an illness or other events that might be impacting your performance in class), please send a private chat on <a href = "https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app"> Microsoft Teams </a> visible only to the instructors. Please use the <a href = "https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app"> Microsoft Teams </a> chatroom (and channels) to discuss publicly with your peers in real-time.
-                         </li>
-                        <li> Please try to keep all course-related communication to <a href = "https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app"> Microsoft Teams </a> rather than email. </li>
+                        <li> We'll use <a
+                                href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app">
+                                Microsoft Teams </a> for general discussion and questions about course material. </li>
+                        <li> You should already have the account username and password to log into Microsoft teams. If
+                            you cannot access the Microsoft teams classroom titled "Design Optimization Of Computing
+                            Systems 2024 (CS60203)" please let the instructors know as soon as possible. </li>
+                        <li> If you need to reach out to the instructors (e.g., pertaining to an illness or other events
+                            that might be impacting your performance in class), please send a private chat on <a
+                                href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app">
+                                Microsoft Teams </a> visible only to the instructors. Please use the <a
+                                href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app">
+                                Microsoft Teams </a> chatroom (and channels) to discuss publicly with your peers in
+                            real-time.
+                        </li>
+                        <li> Please try to keep all course-related communication to <a
+                                href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app">
+                                Microsoft Teams </a> rather than email. </li>
                     </ul>
                 </div>
 
@@ -180,9 +236,12 @@
                     <h5 style="font-weight: bold;"> Late Policy: </h5>
                 </div>
                 <div class="text">
-                    You need to strictly adhere to the deadlines for the submissions (e.g., assignments etc.) announced for this course in MS teams, or by design Moodle will not accept it.<br> 
+                    You need to strictly adhere to the deadlines for the submissions (e.g., assignments etc.) announced
+                    for this course in MS teams, or by design Moodle will not accept it.<br>
                     <br>
-                    Of course, in exceptional circumstances related to personal emergencies, serious illness, wellness concerns, family emergencies, and similar, please make the course staff aware of your situation beforehand/as soon as possible and we will decide how to handle your case.
+                    Of course, in exceptional circumstances related to personal emergencies, serious illness, wellness
+                    concerns, family emergencies, and similar, please make the course staff aware of your situation
+                    beforehand/as soon as possible and we will decide how to handle your case.
                 </div>
             </div>
 
@@ -191,7 +250,7 @@
                     <h5 style="font-weight: bold;"> Grading Policy: </h5>
                 </div>
                 <div class="text">
-                    The grading policy for the course is as follows:
+                    The approximate grading policy for the course is as follows:
                     <ul>
                         <li> Tests: 60% </li>
                         <li> Assignments: 40% </li>
@@ -200,17 +259,17 @@
             </div>
 
         </section>
-        
-        <section id="coverage" class="mb-5">
-            <h2>Coverage</h2>
+
+        <section id="schedule" class="mb-5">
+            <h2>Schedule</h2>
             <br>
-            <table class="table table-striped">
+            <table class="table table-striped center">
                 <thead>
                     <tr>
                         <th>Date</th>
                         <th>Topic</th>
                         <th>Slides</th>
-                        <th>Suggested Readings</th>
+                        <th>Readings and Videos</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -218,16 +277,16 @@
                         <td>July 22, 2024</td>
                         <td>Introduction</td>
                         <td><a href="slides/introduction.pdf">Introduction Slides</a></td>
-                        <td> --</td>
+                        <td> -- </td>
                     </tr>
                 </tbody>
             </table>
         </section>
-        
+
         <section id="assignments" class="mb-5">
             <h2>Assignments</h2>
         </section>
-        
+
         <section id="tests" class="mb-5">
             <h2>Tests</h2>
             <ul>
@@ -236,27 +295,47 @@
             </ul>
         </section>
 
-        <section id= "honor-code", class = "mb-5">
+        <section id="honor-code" , class="mb-5">
             <h2> Honor Code </h2>
             <br>
-            <p> You are permitted to talk to the course staff and to your fellow students about any of the problem sets. Any assistance, though, must be limited to discussion of the problem and sketching general approaches to a solution. Each student must write out his or her own solutions to the problem sets. Consulting another student's solution is prohibited, and submitted solutions may not be copied from any source. These and any other form of collaboration on assignments constitute cheating.<br>
-            <br>
-            No collaboration is permitted on quizzes or assignments. All work submitted for the project must properly cite ideas and work that are not those of the students in the group. <u style="color: red;"> Simply stated, feel free to discuss problems with each other, but do not cheat. It is not worth it, and you will get caught. In that case, we will be forced to award you no marks for that assignment/quiz/project, take away 50% of your total final marks and you will risk deregistration. </u> </p>
+            <p> You are permitted to talk to the course staff and to your fellow students about any of the problem sets.
+                Any assistance, though, must be limited to discussion of the problem and sketching general approaches to
+                a solution. Each student must write out his or her own solutions to the problem sets. Consulting another
+                student's solution is prohibited, and submitted solutions may not be copied from any source. These and
+                any other form of collaboration on assignments constitute cheating.<br>
+                <br>
+                No collaboration is permitted on quizzes or assignments. All work submitted for the project must
+                properly cite ideas and work that are not those of the students in the group. <u style="color: red;">
+                    Simply stated, feel free to discuss problems with each other, but do not cheat. It is not worth it,
+                    and you will get caught. In that case, we will be forced to award you no marks for that
+                    assignment/quiz/project, take away 50% of your total final marks and you will risk deregistration.
+                </u>
+            </p>
         </section>
-        <section id ="Wellness">
+        <section id="Wellness">
             <h2> Wellness </h2>
             <br>
-            <p> If a personal emergency comes up that might impact your work in the class, please let the instructors know via a private chat message (to all the course instructors) so that the course staff can make appropriate arrangements. We are going through unprecedented times and circumstances can sometimes be very overwhelming, and all of us benefit from support during times of struggle. You are not alone. </p>
+            <p> If a personal emergency comes up that might impact your work in the class, please let the instructors
+                know via a private chat message (to all the course instructors) so that the course staff can make
+                appropriate arrangements. We are going through unprecedented times and circumstances can sometimes be
+                very overwhelming, and all of us benefit from support during times of struggle. You are not alone. </p>
         </section>
-        <section id = "Copyright-policy">
+        <section id="Copyright-policy">
             <h2> Copyright Policy </h2>
             <br>
             <p>
-             All teaching materials in this class, including course slides, homeworks, assignments, practice exams and quizzes, are copyrighted. Reproduction, redistribution and other rights solely belong to the instructor. In particular, it is not permissible to upload any or part of these materials to public or private websites without the instructor's explicit consent. Violating this copyright policy will be considered an academic integrity violation, with the consequences discussed above. Reading materials are also copyrighted by their respective publishers and cannot be reposted or distributed without prior authorization from the publisher.
+                All teaching materials in this class, including course slides, homeworks, assignments, practice exams
+                and quizzes, are copyrighted. Reproduction, redistribution and other rights solely belong to the
+                instructor. In particular, it is not permissible to upload any or part of these materials to public or
+                private websites without the instructor's explicit consent. Violating this copyright policy will be
+                considered an academic integrity violation, with the consequences discussed above. Reading materials are
+                also copyrighted by their respective publishers and cannot be reposted or distributed without prior
+                authorization from the publisher.
             </p>
             <br>
             <br>
         </section>
     </main>
 </body>
+
 </html>

@@ -4,12 +4,6 @@ body {
     color: #333;
     background-color: #f8f9f9;
 }
-header {
-    background-color: #051952;
-    color: #fff;
-    padding: 0.5em 0;
-    margin-bottom: 1em;
-}
 
 .header-content {
     display: flex;
@@ -36,6 +30,46 @@ header {
         border-radius: 50%;
         object-fit: cover;
     }
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+    position: sticky;
+    background-color: #051952;
+    color: #fff;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+}
+
+.navbar li {
+    margin-right: 20px; /* Adjust spacing between links */
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fcfcfc; /* Change as needed */
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* Add hover effects for links */
+.navbar a:hover {
+    text-decoration: underline;
 }
 
 .side-by-side {
@@ -76,6 +110,12 @@ header h1 {
     margin: 0;
     font-size: 2.5em;
 }
+
+.center{
+    text-align: center;
+
+}
+
 h2 {
     color: #0b4fa1;
     border-bottom: 2px solid #ddd;
